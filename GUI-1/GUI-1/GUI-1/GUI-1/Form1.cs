@@ -4,6 +4,14 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 
+/*
+Nama        : Sander Antonius Balisa
+Kelas       : 2 D4 EB
+NRP         : 2120600053
+
+Workshop Teknik Antarmuka
+ */
+
 namespace GUI_1
 {
     public partial class Form1 : MaterialForm
