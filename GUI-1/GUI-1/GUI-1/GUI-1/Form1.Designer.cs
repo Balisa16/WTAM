@@ -39,7 +39,6 @@
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.time_interval_box = new MaterialSkin.Controls.MaterialTextBox();
             this.time_scale = new MaterialSkin.Controls.MaterialComboBox();
-            this.start_btn = new MaterialSkin.Controls.MaterialButton();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.sinyal1_lbl = new MaterialSkin.Controls.MaterialLabel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
@@ -61,6 +60,9 @@
             this.Amp3_tbox = new MaterialSkin.Controls.MaterialTextBox();
             this.sinyal3_tbox = new MaterialSkin.Controls.MaterialComboBox();
             this.Freq3_scale = new MaterialSkin.Controls.MaterialComboBox();
+            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
+            this.stop_btn = new MaterialSkin.Controls.MaterialButton();
+            this.start_btn = new MaterialSkin.Controls.MaterialButton();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
@@ -81,6 +83,7 @@
             this.tableLayoutPanel9.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
             this.tableLayoutPanel11.SuspendLayout();
+            this.tableLayoutPanel14.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel12.SuspendLayout();
@@ -110,10 +113,10 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Controls.Add(this.setting_lbl, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.start_btn, 0, 5);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel6, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel8, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel10, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel14, 0, 5);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 4);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -209,27 +212,6 @@
             this.time_scale.StartIndex = 0;
             this.time_scale.TabIndex = 2;
             this.time_scale.SelectedIndexChanged += new System.EventHandler(this.time_scale_SelectedIndexChanged);
-            // 
-            // start_btn
-            // 
-            this.start_btn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.start_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.start_btn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.start_btn.Depth = 0;
-            this.start_btn.HighEmphasis = true;
-            this.start_btn.Icon = null;
-            this.start_btn.Location = new System.Drawing.Point(76, 599);
-            this.start_btn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.start_btn.MouseState = MaterialSkin.MouseState.HOVER;
-            this.start_btn.Name = "start_btn";
-            this.start_btn.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.start_btn.Size = new System.Drawing.Size(67, 24);
-            this.start_btn.TabIndex = 3;
-            this.start_btn.Text = "Start";
-            this.start_btn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.start_btn.UseAccentColor = false;
-            this.start_btn.UseVisualStyleBackColor = true;
-            this.start_btn.Click += new System.EventHandler(this.start_btn_Click);
             // 
             // tableLayoutPanel6
             // 
@@ -697,10 +679,68 @@
             this.Freq3_scale.TabIndex = 4;
             this.Freq3_scale.SelectedIndexChanged += new System.EventHandler(this.Freq3_scale_SelectedIndexChanged);
             // 
+            // tableLayoutPanel14
+            // 
+            this.tableLayoutPanel14.ColumnCount = 2;
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel14.Controls.Add(this.stop_btn, 1, 0);
+            this.tableLayoutPanel14.Controls.Add(this.start_btn, 0, 0);
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 596);
+            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
+            this.tableLayoutPanel14.RowCount = 1;
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(200, 30);
+            this.tableLayoutPanel14.TabIndex = 8;
+            // 
+            // stop_btn
+            // 
+            this.stop_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.stop_btn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.stop_btn.Depth = 0;
+            this.stop_btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stop_btn.Enabled = false;
+            this.stop_btn.HighEmphasis = true;
+            this.stop_btn.Icon = null;
+            this.stop_btn.Location = new System.Drawing.Point(104, 6);
+            this.stop_btn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.stop_btn.MouseState = MaterialSkin.MouseState.HOVER;
+            this.stop_btn.Name = "stop_btn";
+            this.stop_btn.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.stop_btn.Size = new System.Drawing.Size(92, 18);
+            this.stop_btn.TabIndex = 4;
+            this.stop_btn.Text = "Stop";
+            this.stop_btn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.stop_btn.UseAccentColor = false;
+            this.stop_btn.UseVisualStyleBackColor = true;
+            this.stop_btn.Click += new System.EventHandler(this.stop_btn_Click);
+            // 
+            // start_btn
+            // 
+            this.start_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.start_btn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.start_btn.Depth = 0;
+            this.start_btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.start_btn.HighEmphasis = true;
+            this.start_btn.Icon = null;
+            this.start_btn.Location = new System.Drawing.Point(4, 6);
+            this.start_btn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.start_btn.MouseState = MaterialSkin.MouseState.HOVER;
+            this.start_btn.Name = "start_btn";
+            this.start_btn.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.start_btn.Size = new System.Drawing.Size(92, 18);
+            this.start_btn.TabIndex = 3;
+            this.start_btn.Text = "Start";
+            this.start_btn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.start_btn.UseAccentColor = false;
+            this.start_btn.UseVisualStyleBackColor = true;
+            this.start_btn.Click += new System.EventHandler(this.start_btn_Click);
+            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 1;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel5, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.chart1, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -708,8 +748,8 @@
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 93.79968F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.200318F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1141, 629);
             this.tableLayoutPanel3.TabIndex = 1;
             this.tableLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint);
@@ -717,19 +757,20 @@
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.ColumnCount = 4;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.2F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.73333F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.71111F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.26667F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel12, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.dark_swit, 3, 0);
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel13, 2, 0);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 594);
             this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1125, 31);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1135, 31);
             this.tableLayoutPanel5.TabIndex = 1;
             this.tableLayoutPanel5.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel5_Paint);
             // 
@@ -746,7 +787,7 @@
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
             this.tableLayoutPanel12.RowCount = 1;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(120, 23);
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(114, 23);
             this.tableLayoutPanel12.TabIndex = 1;
             // 
             // Thick
@@ -755,17 +796,17 @@
             this.Thick.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Thick.Location = new System.Drawing.Point(3, 0);
             this.Thick.Name = "Thick";
-            this.Thick.Size = new System.Drawing.Size(90, 23);
+            this.Thick.Size = new System.Drawing.Size(85, 23);
             this.Thick.TabIndex = 0;
             this.Thick.Text = "Thickness";
             // 
             // thick_textBox
             // 
             this.thick_textBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.thick_textBox.Location = new System.Drawing.Point(96, 0);
+            this.thick_textBox.Location = new System.Drawing.Point(91, 0);
             this.thick_textBox.Margin = new System.Windows.Forms.Padding(0);
             this.thick_textBox.Name = "thick_textBox";
-            this.thick_textBox.Size = new System.Drawing.Size(24, 20);
+            this.thick_textBox.Size = new System.Drawing.Size(23, 20);
             this.thick_textBox.TabIndex = 1;
             this.thick_textBox.TextChanged += new System.EventHandler(this.thick_textBox_TextChanged);
             // 
@@ -775,13 +816,13 @@
             this.dark_swit.BackColor = System.Drawing.Color.Transparent;
             this.dark_swit.Depth = 0;
             this.dark_swit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dark_swit.Location = new System.Drawing.Point(986, 0);
+            this.dark_swit.Location = new System.Drawing.Point(985, 0);
             this.dark_swit.Margin = new System.Windows.Forms.Padding(0);
             this.dark_swit.MouseLocation = new System.Drawing.Point(-1, -1);
             this.dark_swit.MouseState = MaterialSkin.MouseState.HOVER;
             this.dark_swit.Name = "dark_swit";
             this.dark_swit.Ripple = true;
-            this.dark_swit.Size = new System.Drawing.Size(139, 31);
+            this.dark_swit.Size = new System.Drawing.Size(150, 31);
             this.dark_swit.TabIndex = 0;
             this.dark_swit.Text = "Light Mode";
             this.dark_swit.UseVisualStyleBackColor = false;
@@ -792,16 +833,16 @@
             this.tableLayoutPanel13.ColumnCount = 3;
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.38461F));
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.61538F));
-            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
             this.tableLayoutPanel13.Controls.Add(this.time_inc_lbl, 0, 0);
             this.tableLayoutPanel13.Controls.Add(this.time_inc_tbox, 1, 0);
             this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel13.Location = new System.Drawing.Point(801, 4);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(838, 4);
             this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel13.Name = "tableLayoutPanel13";
             this.tableLayoutPanel13.RowCount = 1;
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel13.Size = new System.Drawing.Size(182, 23);
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(144, 23);
             this.tableLayoutPanel13.TabIndex = 2;
             // 
             // time_inc_lbl
@@ -810,17 +851,17 @@
             this.time_inc_lbl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.time_inc_lbl.Location = new System.Drawing.Point(3, 0);
             this.time_inc_lbl.Name = "time_inc_lbl";
-            this.time_inc_lbl.Size = new System.Drawing.Size(97, 23);
+            this.time_inc_lbl.Size = new System.Drawing.Size(71, 23);
             this.time_inc_lbl.TabIndex = 0;
             this.time_inc_lbl.Text = "Time Inc";
             // 
             // time_inc_tbox
             // 
             this.time_inc_tbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.time_inc_tbox.Location = new System.Drawing.Point(103, 0);
+            this.time_inc_tbox.Location = new System.Drawing.Point(77, 0);
             this.time_inc_tbox.Margin = new System.Windows.Forms.Padding(0);
             this.time_inc_tbox.Name = "time_inc_tbox";
-            this.time_inc_tbox.Size = new System.Drawing.Size(54, 20);
+            this.time_inc_tbox.Size = new System.Drawing.Size(40, 20);
             this.time_inc_tbox.TabIndex = 1;
             this.time_inc_tbox.TextChanged += new System.EventHandler(this.time_inc_tbox_TextChanged);
             // 
@@ -881,6 +922,8 @@
             this.tableLayoutPanel10.ResumeLayout(false);
             this.tableLayoutPanel10.PerformLayout();
             this.tableLayoutPanel11.ResumeLayout(false);
+            this.tableLayoutPanel14.ResumeLayout(false);
+            this.tableLayoutPanel14.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
@@ -934,6 +977,8 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
         private System.Windows.Forms.Label time_inc_lbl;
         private System.Windows.Forms.TextBox time_inc_tbox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel14;
+        private MaterialSkin.Controls.MaterialButton stop_btn;
     }
 }
 

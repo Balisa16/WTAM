@@ -232,7 +232,10 @@ namespace GUI_1
                 k_freq3 = 1;
 
             if (timer1.Enabled == true)
-                start_btn.Text = "Stop";
+            {
+                start_btn.Text = "Pause";
+                stop_btn.Enabled = true;
+            }
             else
             {
                 amplitude1 = 0;
@@ -347,6 +350,16 @@ namespace GUI_1
         private void Freq1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void stop_btn_Click(object sender, EventArgs e)
+        {
+            chart1.Series[0].Points.Clear();
+            chart1.Series["Sinyal 2"].Points.Clear();
+            chart1.Series["Sinyal 3"].Points.Clear();
+            start_btn.Text = "Start";
+            timer1.Enabled = false;
+            stop_btn.Enabled = false;
         }
 
         private void Amp2_tbox_TextChanged(object sender, EventArgs e)
