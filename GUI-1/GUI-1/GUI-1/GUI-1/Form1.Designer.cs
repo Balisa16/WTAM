@@ -792,7 +792,7 @@
             this.tableLayoutPanel13.ColumnCount = 3;
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.38461F));
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.61538F));
-            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tableLayoutPanel13.Controls.Add(this.time_inc_lbl, 0, 0);
             this.tableLayoutPanel13.Controls.Add(this.time_inc_tbox, 1, 0);
             this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -810,17 +810,17 @@
             this.time_inc_lbl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.time_inc_lbl.Location = new System.Drawing.Point(3, 0);
             this.time_inc_lbl.Name = "time_inc_lbl";
-            this.time_inc_lbl.Size = new System.Drawing.Size(98, 23);
+            this.time_inc_lbl.Size = new System.Drawing.Size(97, 23);
             this.time_inc_lbl.TabIndex = 0;
             this.time_inc_lbl.Text = "Time Inc";
             // 
             // time_inc_tbox
             // 
             this.time_inc_tbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.time_inc_tbox.Location = new System.Drawing.Point(104, 0);
+            this.time_inc_tbox.Location = new System.Drawing.Point(103, 0);
             this.time_inc_tbox.Margin = new System.Windows.Forms.Padding(0);
             this.time_inc_tbox.Name = "time_inc_tbox";
-            this.time_inc_tbox.Size = new System.Drawing.Size(55, 20);
+            this.time_inc_tbox.Size = new System.Drawing.Size(54, 20);
             this.time_inc_tbox.TabIndex = 1;
             this.time_inc_tbox.TextChanged += new System.EventHandler(this.time_inc_tbox_TextChanged);
             // 

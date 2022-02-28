@@ -61,9 +61,36 @@ namespace GUI_1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if (Amp1.Text == "")
+                amplitude1 = 0;
+            else
+                amplitude1 = double.Parse(Amp1.Text)*t_Amp1;
+            if (Amp2_tbox.Text == "")
+                amplitude2 = 0;
+            else
+                amplitude2 = double.Parse(Amp2_tbox.Text) * t_Amp2;
+            if (Amp3_tbox.Text == "")
+                amplitude3 = 0;
+            else
+                amplitude3 = double.Parse(Amp3_tbox.Text) * t_Amp3;
+
+            if (Freq1_tbox.Text == "")
+                frequency1 = 0;
+            else
+                frequency1 = double.Parse(Freq1_tbox.Text) * k_freq1;
+            if (Freq2_tbox.Text == "")
+                frequency2 = 0;
+            else
+                frequency2 = double.Parse(Freq2_tbox.Text) * k_freq2;
+            if (Freq3_tbox.Text == "")
+                frequency3 = 0;
+            else
+                frequency3 = double.Parse(Freq3_tbox.Text) * k_freq3;
+
             double y1 = amplitude1 * Math.Sin(2 * Math.PI * frequency1 * time);
             double y2 = amplitude2 * Math.Sin(2 * Math.PI * frequency2 * time);
             double y3 = amplitude3 * Math.Sin(2 * Math.PI * frequency3 * time);
+
             if (time_interval_box.Text == "")
                 time_interval = 100;
             else
@@ -205,17 +232,7 @@ namespace GUI_1
                 k_freq3 = 1;
 
             if (timer1.Enabled == true)
-            {
-                amplitude1 = double.Parse(Amp1.Text) * t_Amp1;
-                amplitude2 = double.Parse(Amp2_tbox.Text) * t_Amp2;
-                amplitude3 = double.Parse(Amp3_tbox.Text) * t_Amp3;
-
-                frequency1 = double.Parse(Freq1_tbox.Text) * k_freq1;
-                frequency2 = double.Parse(Freq2_tbox.Text) * k_freq2;
-                frequency3 = double.Parse(Freq3_tbox.Text) * k_freq3;
-
                 start_btn.Text = "Stop";
-            }
             else
             {
                 amplitude1 = 0;
