@@ -1,0 +1,88 @@
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.exe.config
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.exe
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.pdb
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\MaterialSkin.dll
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.AssemblyReference.cache
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.SuggestedBindingRedirects.cache
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI_1.Form1.resources
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI_1.Properties.Resources.resources
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.GenerateResource.cache
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.CoreCompileInputs.cache
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.CopyComplete
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.exe
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.pdb
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.dll
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.dll
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.dll
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.pdb
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.xml
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.pdb
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.xml
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.pdb
+E:\Project\Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.xml
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.exe.config
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.exe
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.dll
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.dll
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.dll
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\MaterialSkin.dll
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.xml
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.xml
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.xml
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.AssemblyReference.cache
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.SuggestedBindingRedirects.cache
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI_1.Form1.resources
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI_1.Properties.Resources.resources
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.GenerateResource.cache
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.CoreCompileInputs.cache
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.CopyComplete
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.exe
+D:\Semester 4\Workshop Teknik Antarmuka\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.exe.config
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.exe
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.dll
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.dll
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.dll
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\MaterialSkin.dll
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.xml
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.xml
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.xml
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.AssemblyReference.cache
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.SuggestedBindingRedirects.cache
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI_1.Form1.resources
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI_1.Properties.Resources.resources
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.GenerateResource.cache
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.CoreCompileInputs.cache
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.CopyComplete
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.exe
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-1\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.exe.config
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.exe
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\GUI-1.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.dll
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.dll
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.dll
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\MaterialSkin.dll
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.xml
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.WinForms.xml
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.pdb
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\bin\Debug\LiveCharts.Wpf.xml
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.AssemblyReference.cache
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.SuggestedBindingRedirects.cache
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\obj\Debug\GUI_1.Form1.resources
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\obj\Debug\GUI_1.Properties.Resources.resources
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.GenerateResource.cache
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.CoreCompileInputs.cache
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.csproj.CopyComplete
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.exe
+D:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\GUI-2\GUI-1\GUI-1\GUI-1\obj\Debug\GUI-1.pdb
