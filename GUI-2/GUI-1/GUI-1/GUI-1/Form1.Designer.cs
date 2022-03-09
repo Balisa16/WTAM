@@ -893,7 +893,7 @@
             this.tableLayoutPanel13.ColumnCount = 3;
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.38461F));
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.61538F));
-            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 31F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32F));
             this.tableLayoutPanel13.Controls.Add(this.time_inc_lbl, 0, 0);
             this.tableLayoutPanel13.Controls.Add(this.time_inc_tbox, 1, 0);
             this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -921,7 +921,7 @@
             this.time_inc_tbox.Location = new System.Drawing.Point(73, 0);
             this.time_inc_tbox.Margin = new System.Windows.Forms.Padding(0);
             this.time_inc_tbox.Name = "time_inc_tbox";
-            this.time_inc_tbox.Size = new System.Drawing.Size(39, 20);
+            this.time_inc_tbox.Size = new System.Drawing.Size(38, 20);
             this.time_inc_tbox.TabIndex = 1;
             this.time_inc_tbox.TextChanged += new System.EventHandler(this.time_inc_tbox_TextChanged);
             // 
