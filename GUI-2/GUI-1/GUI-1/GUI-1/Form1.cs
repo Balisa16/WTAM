@@ -30,8 +30,8 @@ namespace GUI_1
             chart1.ChartAreas[0].AxisY.LineColor = System.Drawing.Color.White;
             chart1.ChartAreas[0].AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDotDot;
 
-            chart1.ChartAreas[0].AxisX.LabelStyle.Format = "0.00";
 
+            chart1.ChartAreas[0].AxisX.LabelStyle.Format = "0.00";
 
             chart1.BackColor = Color.Black;
             chart1.Legends[0].BackColor = Color.Black;
@@ -72,7 +72,7 @@ namespace GUI_1
             if (Amp1.Text == "")
                 amplitude1 = 0;
             else
-                amplitude1 = double.Parse(Amp1.Text)*t_Amp1;
+                amplitude1 = double.Parse(Amp1.Text) * t_Amp1;
             if (Amp2_tbox.Text == "")
                 amplitude2 = 0;
             else
@@ -103,8 +103,35 @@ namespace GUI_1
                 time_interval = 100;
             else
                 time_interval = double.Parse(time_interval_box.Text);
-            time_sc = time_scale.Text;
 
+            if (materialSwitch1.Checked)
+            {
+                if (materialTextBox1.Text == "")
+                    time_interval2 = 100;
+                else
+                    time_interval2 = double.Parse(materialTextBox1.Text);
+
+                time_sc2 = materialComboBox1.Text;
+
+                if (time_sc2 == "ms")
+                    chart1.ChartAreas["Chart2"].AxisX.Title = "Time (ms)";
+                else if (time_sc2 == "us")
+                    chart1.ChartAreas["Chart2"].AxisX.Title = "Time (us)";
+                else if (time_sc2 == "ns")
+                    chart1.ChartAreas["Chart2"].AxisX.Title = "Time (ns)";
+                else if (time_sc2 == "ps")
+                    chart1.ChartAreas["Chart2"].AxisX.Title = "Time (ps)";
+                else
+                    chart1.ChartAreas["Chart2"].AxisX.Title = "Time (s)";
+
+                chart1.ChartAreas["Chart2"].AxisY.Title = Axis_y_title;
+
+                chart1.Series["Sinyal 21"].Points.AddXY(time, y1);
+                chart1.Series["Sinyal 22"].Points.AddXY(time, y2);
+                chart1.Series["Sinyal 23"].Points.AddXY(time, y3);
+            }
+
+            time_sc = time_scale.Text;
 
             if (time_sc == "ms")
                 chart1.ChartAreas[0].AxisX.Title = "Time (ms)";
@@ -122,28 +149,32 @@ namespace GUI_1
             chart1.Series[0].Points.AddXY(time, y1);
             chart1.Series["Sinyal 2"].Points.AddXY(time, y2);
             chart1.Series["Sinyal 3"].Points.AddXY(time, y3);
-            time += time_increase;
 
-            /*if (chart1.Series[0].Points.Count > time_interval)
-            {
-                chart1.Series[0].Points.RemoveAt(0);
-                chart1.Series["Sinyal 2"].Points.RemoveAt(0);
-                chart1.Series["Sinyal 3"].Points.RemoveAt(0);
-            }*/
+            time += time_increase;
+            time2 += time_increase;
+
             if (chart1.Series[0].Points.Count > time_interval)
             {
-                chart1.ChartAreas[0].AxisX.Minimum = time - (time_increase * time_interval);
+                double timing = time - (time_increase * time_interval);
+                chart1.ChartAreas[0].AxisX.Minimum = timing;
                 chart1.ChartAreas[0].AxisX.Maximum = time;
             }
+            if (materialSwitch1.Checked && chart1.Series["Sinyal 21"].Points.Count > time_interval2)
+            {
+                double timing2 = time2 - (time_increase * time_interval2);
+                chart1.ChartAreas["Chart2"].AxisX.Minimum = timing2;
+                chart1.ChartAreas["Chart2"].AxisX.Maximum = time2;
+            }
         }
-        
+
         private double time = 0.0;
         private double amplitude1 = 0, amplitude2 = 0, amplitude3 = 0;
         private double frequency1 = 0, frequency2 = 0, frequency3 = 0;
         private int thick;
-        private double time_interval, time_increase, t_Amp1, t_Amp2, t_Amp3;
-        private string time_sc, Axis_y_title;
+        private double time_interval, time_increase, t_Amp1, t_Amp2, t_Amp3, time_interval2, time2;
+        private string time_sc, time_sc2, Axis_y_title;
         private int k_freq1, k_freq2, k_freq3;
+        private bool Stop = false;
 
         private void start_btn_Click(object sender, EventArgs e)
         {
@@ -294,6 +325,16 @@ namespace GUI_1
                 chart1.ChartAreas[0].AxisX.LineColor = System.Drawing.Color.Black;
                 chart1.ChartAreas[0].AxisY.LineColor = System.Drawing.Color.Black;
                 chart1.ChartAreas[0].AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDotDot;
+
+                if (materialSwitch1.Checked)
+                {
+                    chart1.ChartAreas["Chart2"].BorderColor = Color.Black;
+                    chart1.ChartAreas["Chart2"].BackColor = Color.White;
+                    chart1.ChartAreas["Chart2"].BorderColor = System.Drawing.Color.Black;
+                    chart1.ChartAreas["Chart2"].AxisX.LineColor = System.Drawing.Color.Black;
+                    chart1.ChartAreas["Chart2"].AxisY.LineColor = System.Drawing.Color.Black;
+                    chart1.ChartAreas["Chart2"].AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDotDot;
+                }
             }
             else
             {
@@ -310,6 +351,16 @@ namespace GUI_1
                 chart1.ChartAreas[0].AxisX.LineColor = System.Drawing.Color.White;
                 chart1.ChartAreas[0].AxisY.LineColor = System.Drawing.Color.White;
                 chart1.ChartAreas[0].AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDotDot;
+
+                if (materialSwitch1.Checked)
+                {
+                    chart1.ChartAreas["Chart2"].BorderColor = Color.White;
+                    chart1.ChartAreas["Chart2"].BackColor = Color.Black;
+                    chart1.ChartAreas["Chart2"].BorderColor = System.Drawing.Color.White;
+                    chart1.ChartAreas["Chart2"].AxisX.LineColor = System.Drawing.Color.White;
+                    chart1.ChartAreas["Chart2"].AxisY.LineColor = System.Drawing.Color.White;
+                    chart1.ChartAreas["Chart2"].AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDotDot;
+                }
             }
         }
 
@@ -371,10 +422,87 @@ namespace GUI_1
             chart1.Series[0].Points.Clear();
             chart1.Series["Sinyal 2"].Points.Clear();
             chart1.Series["Sinyal 3"].Points.Clear();
+            if (materialSwitch1.Checked)
+            {
+                chart1.Series["Sinyal 21"].Points.Clear();
+                chart1.Series["Sinyal 22"].Points.Clear();
+                chart1.Series["Sinyal 23"].Points.Clear();
+            }
             start_btn.Text = "Start";
             time = 0.00;
+            time2 = 0.00;
+            Stop = true;
             timer1.Enabled = false;
             stop_btn.Enabled = false;
+        }
+
+        private void materialTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialSwitch1_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (materialSwitch1.Checked)
+            {
+                materialTextBox1.Enabled = true;
+                materialComboBox1.Enabled = true;
+                chart1.ChartAreas.Add("Chart2");
+                chart1.ChartAreas["Chart2"].AxisX.Title = "Time (ms)";
+                chart1.ChartAreas["Chart2"].AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDotDot;
+                chart1.ChartAreas["Chart2"].AxisX.LabelStyle.Format = "0.00";
+                if (dark_swit.Checked)
+                {
+                    chart1.ChartAreas["Chart2"].BorderColor = System.Drawing.Color.Black;
+                    chart1.ChartAreas["Chart2"].BackColor = Color.White;
+                    chart1.ChartAreas["Chart2"].AxisX.LineColor = System.Drawing.Color.Black;
+                    chart1.ChartAreas["Chart2"].AxisY.LineColor = System.Drawing.Color.Black;
+                }
+                else
+                {
+                    chart1.ChartAreas["Chart2"].BorderColor = System.Drawing.Color.White;
+                    chart1.ChartAreas["Chart2"].BackColor = Color.Black;
+                    chart1.ChartAreas["Chart2"].AxisX.LineColor = System.Drawing.Color.White;
+                    chart1.ChartAreas["Chart2"].AxisY.LineColor = System.Drawing.Color.White;
+                }
+
+                //if(Stop == false)
+                //{
+                    chart1.Series.Add("Sinyal 21");
+                    chart1.Series.Add("Sinyal 22");
+                    chart1.Series.Add("Sinyal 23");
+
+                    chart1.Series["Sinyal 21"].ChartArea = "Chart2";
+                    chart1.Series["Sinyal 21"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+                    chart1.Series["Sinyal 21"].BorderWidth = thick;
+                    chart1.Series["Sinyal 21"].Color = Color.Red;
+
+                    chart1.Series["Sinyal 22"].ChartArea = "Chart2";
+                    chart1.Series["Sinyal 22"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+                    chart1.Series["Sinyal 22"].BorderWidth = thick;
+                    chart1.Series["Sinyal 22"].Color = Color.Green;
+
+                    chart1.Series["Sinyal 23"].ChartArea = "Chart2";
+                    chart1.Series["Sinyal 23"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+                    chart1.Series["Sinyal 23"].BorderWidth = thick;
+                    chart1.Series["Sinyal 23"].Color = Color.Violet;
+                //}
+            }
+            else
+            {
+                //chart1.ChartAreas.Remove("Chart2");
+                materialTextBox1.Enabled = false;
+                materialComboBox1.Enabled = false;
+                chart1.ChartAreas.RemoveAt(chart1.ChartAreas.IndexOf("Chart2"));
+                chart1.Series.RemoveAt(chart1.Series.IndexOf("Sinyal 21"));
+                chart1.Series.RemoveAt(chart1.Series.IndexOf("Sinyal 22"));
+                chart1.Series.RemoveAt(chart1.Series.IndexOf("Sinyal 23"));
+            }
         }
 
         private void Amp2_tbox_TextChanged(object sender, EventArgs e)
@@ -411,11 +539,20 @@ namespace GUI_1
             chart1.Series[0].BorderWidth = thick;
             chart1.Series["Sinyal 2"].BorderWidth = thick;
             chart1.Series["Sinyal 3"].BorderWidth = thick;
+            if (materialSwitch1.Checked)
+            {
+                chart1.Series[0].BorderWidth = thick;
+                chart1.Series["Sinyal 2"].BorderWidth = thick;
+                chart1.Series["Sinyal 3"].BorderWidth = thick;
+                chart1.Series["Sinyal 21"].BorderWidth = thick;
+                chart1.Series["Sinyal 22"].BorderWidth = thick;
+                chart1.Series["Sinyal 23"].BorderWidth = thick;
+            }
         }
 
         private void time_inc_tbox_TextChanged(object sender, EventArgs e)
         {
-            if(time_inc_tbox.Text == "")
+            if (time_inc_tbox.Text == "")
                 time_increase = 0.001;
             else
                 time_increase = double.Parse(time_inc_tbox.Text);
