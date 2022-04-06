@@ -104,12 +104,12 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 63);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 24);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1372, 637);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1372, 676);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -133,7 +133,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 31.21828F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 31.21828F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.345178F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(219, 629);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(219, 668);
             this.tableLayoutPanel2.TabIndex = 0;
             this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
             // 
@@ -164,7 +164,7 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.1875F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 82.8125F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(213, 147);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(213, 159);
             this.tableLayoutPanel6.TabIndex = 5;
             this.tableLayoutPanel6.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel6_Paint);
             // 
@@ -174,7 +174,7 @@
             this.sinyal1_lbl.AutoSize = true;
             this.sinyal1_lbl.Depth = 0;
             this.sinyal1_lbl.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.sinyal1_lbl.Location = new System.Drawing.Point(77, 3);
+            this.sinyal1_lbl.Location = new System.Drawing.Point(77, 4);
             this.sinyal1_lbl.MouseState = MaterialSkin.MouseState.HOVER;
             this.sinyal1_lbl.Name = "sinyal1_lbl";
             this.sinyal1_lbl.Size = new System.Drawing.Size(58, 19);
@@ -191,14 +191,14 @@
             this.tableLayoutPanel7.Controls.Add(this.satuan_Amp1, 1, 0);
             this.tableLayoutPanel7.Controls.Add(this.Freq1_tbox, 0, 1);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 29);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 31);
             this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 2;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.74419F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.25581F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(207, 114);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(207, 124);
             this.tableLayoutPanel7.TabIndex = 1;
             // 
             // Freq1
@@ -221,7 +221,7 @@
             "kHz",
             "MHz",
             "GHz"});
-            this.Freq1.Location = new System.Drawing.Point(132, 62);
+            this.Freq1.Location = new System.Drawing.Point(132, 68);
             this.Freq1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Freq1.MaxDropDownItems = 4;
             this.Freq1.MouseState = MaterialSkin.MouseState.OUT;
@@ -295,7 +295,7 @@
             this.Freq1_tbox.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.Freq1_tbox.Hint = "Frequency";
             this.Freq1_tbox.LeadingIcon = null;
-            this.Freq1_tbox.Location = new System.Drawing.Point(3, 62);
+            this.Freq1_tbox.Location = new System.Drawing.Point(3, 68);
             this.Freq1_tbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Freq1_tbox.MaxLength = 50;
             this.Freq1_tbox.MouseState = MaterialSkin.MouseState.OUT;
@@ -314,13 +314,13 @@
             this.tableLayoutPanel8.Controls.Add(this.Sinyal2_lbl, 0, 0);
             this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel9, 0, 1);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 291);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 303);
             this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 2;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.4359F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.5641F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(213, 147);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(213, 159);
             this.tableLayoutPanel8.TabIndex = 6;
             // 
             // Sinyal2_lbl
@@ -329,7 +329,7 @@
             this.Sinyal2_lbl.AutoSize = true;
             this.Sinyal2_lbl.Depth = 0;
             this.Sinyal2_lbl.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.Sinyal2_lbl.Location = new System.Drawing.Point(77, 6);
+            this.Sinyal2_lbl.Location = new System.Drawing.Point(77, 8);
             this.Sinyal2_lbl.MouseState = MaterialSkin.MouseState.HOVER;
             this.Sinyal2_lbl.Name = "Sinyal2_lbl";
             this.Sinyal2_lbl.Size = new System.Drawing.Size(58, 19);
@@ -346,13 +346,13 @@
             this.tableLayoutPanel9.Controls.Add(this.Amp2_scale, 1, 0);
             this.tableLayoutPanel9.Controls.Add(this.Freq2_scale, 1, 1);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 36);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 39);
             this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 2;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(207, 107);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(207, 116);
             this.tableLayoutPanel9.TabIndex = 2;
             this.tableLayoutPanel9.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel9_Paint);
             // 
@@ -365,7 +365,7 @@
             this.Freq2_tbox.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.Freq2_tbox.Hint = "Frequency";
             this.Freq2_tbox.LeadingIcon = null;
-            this.Freq2_tbox.Location = new System.Drawing.Point(3, 57);
+            this.Freq2_tbox.Location = new System.Drawing.Point(3, 62);
             this.Freq2_tbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Freq2_tbox.MaxLength = 50;
             this.Freq2_tbox.MouseState = MaterialSkin.MouseState.OUT;
@@ -452,7 +452,7 @@
             "kHz",
             "MHz",
             "GHz"});
-            this.Freq2_scale.Location = new System.Drawing.Point(133, 57);
+            this.Freq2_scale.Location = new System.Drawing.Point(133, 62);
             this.Freq2_scale.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Freq2_scale.MaxDropDownItems = 4;
             this.Freq2_scale.MouseState = MaterialSkin.MouseState.OUT;
@@ -469,13 +469,13 @@
             this.tableLayoutPanel10.Controls.Add(this.sinyal3_lbl, 0, 0);
             this.tableLayoutPanel10.Controls.Add(this.tableLayoutPanel11, 0, 1);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 446);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 470);
             this.tableLayoutPanel10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 2;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.07407F));
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75.92593F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(213, 147);
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(213, 159);
             this.tableLayoutPanel10.TabIndex = 7;
             // 
             // sinyal3_lbl
@@ -484,7 +484,7 @@
             this.sinyal3_lbl.AutoSize = true;
             this.sinyal3_lbl.Depth = 0;
             this.sinyal3_lbl.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.sinyal3_lbl.Location = new System.Drawing.Point(77, 8);
+            this.sinyal3_lbl.Location = new System.Drawing.Point(77, 9);
             this.sinyal3_lbl.MouseState = MaterialSkin.MouseState.HOVER;
             this.sinyal3_lbl.Name = "sinyal3_lbl";
             this.sinyal3_lbl.Size = new System.Drawing.Size(58, 19);
@@ -501,13 +501,13 @@
             this.tableLayoutPanel11.Controls.Add(this.sinyal3_tbox, 1, 0);
             this.tableLayoutPanel11.Controls.Add(this.Freq3_scale, 1, 1);
             this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 39);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 42);
             this.tableLayoutPanel11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 2;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(207, 104);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(207, 113);
             this.tableLayoutPanel11.TabIndex = 3;
             // 
             // Freq3_tbox
@@ -519,7 +519,7 @@
             this.Freq3_tbox.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.Freq3_tbox.Hint = "Frequency";
             this.Freq3_tbox.LeadingIcon = null;
-            this.Freq3_tbox.Location = new System.Drawing.Point(3, 56);
+            this.Freq3_tbox.Location = new System.Drawing.Point(3, 60);
             this.Freq3_tbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Freq3_tbox.MaxLength = 50;
             this.Freq3_tbox.MouseState = MaterialSkin.MouseState.OUT;
@@ -606,7 +606,7 @@
             "kHz",
             "MHz",
             "GHz"});
-            this.Freq3_scale.Location = new System.Drawing.Point(133, 56);
+            this.Freq3_scale.Location = new System.Drawing.Point(133, 60);
             this.Freq3_scale.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Freq3_scale.MaxDropDownItems = 4;
             this.Freq3_scale.MouseState = MaterialSkin.MouseState.OUT;
@@ -624,7 +624,7 @@
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel14.Controls.Add(this.stop_btn, 1, 0);
             this.tableLayoutPanel14.Controls.Add(this.start_btn, 0, 0);
-            this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 600);
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 636);
             this.tableLayoutPanel14.Name = "tableLayoutPanel14";
             this.tableLayoutPanel14.RowCount = 1;
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -809,7 +809,7 @@
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1141, 629);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1141, 668);
             this.tableLayoutPanel3.TabIndex = 1;
             this.tableLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint);
             // 
@@ -825,7 +825,7 @@
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel13, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel15, 1, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 594);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 633);
             this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
@@ -893,7 +893,7 @@
             this.tableLayoutPanel13.ColumnCount = 3;
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.38461F));
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.61538F));
-            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37F));
             this.tableLayoutPanel13.Controls.Add(this.time_inc_lbl, 0, 0);
             this.tableLayoutPanel13.Controls.Add(this.time_inc_tbox, 1, 0);
             this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -911,14 +911,14 @@
             this.time_inc_lbl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.time_inc_lbl.Location = new System.Drawing.Point(3, 0);
             this.time_inc_lbl.Name = "time_inc_lbl";
-            this.time_inc_lbl.Size = new System.Drawing.Size(64, 23);
+            this.time_inc_lbl.Size = new System.Drawing.Size(63, 23);
             this.time_inc_lbl.TabIndex = 0;
             this.time_inc_lbl.Text = "Time Inc";
             // 
             // time_inc_tbox
             // 
             this.time_inc_tbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.time_inc_tbox.Location = new System.Drawing.Point(70, 0);
+            this.time_inc_tbox.Location = new System.Drawing.Point(69, 0);
             this.time_inc_tbox.Margin = new System.Windows.Forms.Padding(0);
             this.time_inc_tbox.Name = "time_inc_tbox";
             this.time_inc_tbox.Size = new System.Drawing.Size(37, 20);
@@ -978,7 +978,7 @@
             series1.MarkerSize = 2;
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(1141, 590);
+            this.chart1.Size = new System.Drawing.Size(1141, 629);
             this.chart1.TabIndex = 2;
             this.chart1.Text = "chart1";
             this.chart1.Click += new System.EventHandler(this.chart1_Click);
@@ -994,10 +994,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1378, 704);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.FormStyle = MaterialSkin.Controls.MaterialForm.FormStyles.ActionBar_None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
-            this.Padding = new System.Windows.Forms.Padding(3, 63, 3, 4);
+            this.Padding = new System.Windows.Forms.Padding(3, 24, 3, 4);
             this.Text = "Signal Plotter";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
