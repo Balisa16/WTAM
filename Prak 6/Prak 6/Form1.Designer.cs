@@ -40,12 +40,15 @@
             this.listReceived = new System.Windows.Forms.ListBox();
             this.groupSerialSetting = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.Baudrate = new MaterialSkin.Controls.MaterialComboBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.connectbtn = new MaterialSkin.Controls.MaterialButton();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.PortName = new MaterialSkin.Controls.MaterialComboBox();
-            this.Baudrate = new MaterialSkin.Controls.MaterialComboBox();
+            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
+            this.stop = new MaterialSkin.Controls.MaterialButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupSplitter.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -53,6 +56,7 @@
             this.groupSerialSetting.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -92,14 +96,16 @@
             this.tableLayoutPanel2.Controls.Add(this.kelembapanbox, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.tekananbox, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.UVindexbox, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel5, 0, 4);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 16);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 5;
+            this.tableLayoutPanel2.RowCount = 6;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(254, 284);
             this.tableLayoutPanel2.TabIndex = 0;
@@ -234,94 +240,6 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(236, 284);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
-            // serialPort1
-            // 
-            this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 2;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 57.3913F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 42.6087F));
-            this.tableLayoutPanel4.Controls.Add(this.connectbtn, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.materialButton1, 1, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 113);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(230, 38);
-            this.tableLayoutPanel4.TabIndex = 2;
-            // 
-            // connectbtn
-            // 
-            this.connectbtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.connectbtn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.connectbtn.Depth = 0;
-            this.connectbtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.connectbtn.HighEmphasis = true;
-            this.connectbtn.Icon = null;
-            this.connectbtn.Location = new System.Drawing.Point(4, 6);
-            this.connectbtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.connectbtn.MouseState = MaterialSkin.MouseState.HOVER;
-            this.connectbtn.Name = "connectbtn";
-            this.connectbtn.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.connectbtn.Size = new System.Drawing.Size(124, 26);
-            this.connectbtn.TabIndex = 0;
-            this.connectbtn.Text = "Connect";
-            this.connectbtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.connectbtn.UseAccentColor = false;
-            this.connectbtn.UseVisualStyleBackColor = true;
-            this.connectbtn.Click += new System.EventHandler(this.connectbtn_Click);
-            // 
-            // materialButton1
-            // 
-            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton1.Depth = 0;
-            this.materialButton1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialButton1.HighEmphasis = true;
-            this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(136, 6);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton1.Name = "materialButton1";
-            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(90, 26);
-            this.materialButton1.TabIndex = 1;
-            this.materialButton1.Text = "Close";
-            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton1.UseAccentColor = false;
-            this.materialButton1.UseVisualStyleBackColor = true;
-            this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click);
-            // 
-            // PortName
-            // 
-            this.PortName.AutoResize = false;
-            this.PortName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.PortName.Depth = 0;
-            this.PortName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PortName.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.PortName.DropDownHeight = 174;
-            this.PortName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.PortName.DropDownWidth = 121;
-            this.PortName.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.PortName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.PortName.FormattingEnabled = true;
-            this.PortName.Hint = "Port Name";
-            this.PortName.IntegralHeight = false;
-            this.PortName.ItemHeight = 43;
-            this.PortName.Location = new System.Drawing.Point(3, 3);
-            this.PortName.MaxDropDownItems = 4;
-            this.PortName.MouseState = MaterialSkin.MouseState.OUT;
-            this.PortName.Name = "PortName";
-            this.PortName.Size = new System.Drawing.Size(230, 49);
-            this.PortName.StartIndex = 0;
-            this.PortName.TabIndex = 3;
-            this.PortName.SelectedIndexChanged += new System.EventHandler(this.PortName_SelectedIndexChanged);
-            this.PortName.Click += new System.EventHandler(this.PortName_Click);
-            // 
             // Baudrate
             // 
             this.Baudrate.AutoResize = false;
@@ -349,6 +267,151 @@
             this.Baudrate.StartIndex = 0;
             this.Baudrate.TabIndex = 4;
             // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 2;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 57.3913F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 42.6087F));
+            this.tableLayoutPanel4.Controls.Add(this.connectbtn, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.materialButton1, 1, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 113);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(230, 38);
+            this.tableLayoutPanel4.TabIndex = 2;
+            // 
+            // connectbtn
+            // 
+            this.connectbtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.connectbtn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.connectbtn.Depth = 0;
+            this.connectbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.connectbtn.HighEmphasis = true;
+            this.connectbtn.Icon = null;
+            this.connectbtn.Location = new System.Drawing.Point(4, 6);
+            this.connectbtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.connectbtn.MouseState = MaterialSkin.MouseState.HOVER;
+            this.connectbtn.Name = "connectbtn";
+            this.connectbtn.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.connectbtn.Size = new System.Drawing.Size(123, 26);
+            this.connectbtn.TabIndex = 0;
+            this.connectbtn.Text = "Connect";
+            this.connectbtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.connectbtn.UseAccentColor = false;
+            this.connectbtn.UseVisualStyleBackColor = true;
+            this.connectbtn.Click += new System.EventHandler(this.connectbtn_Click);
+            // 
+            // materialButton1
+            // 
+            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton1.Depth = 0;
+            this.materialButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialButton1.HighEmphasis = true;
+            this.materialButton1.Icon = null;
+            this.materialButton1.Location = new System.Drawing.Point(135, 6);
+            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton1.Name = "materialButton1";
+            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton1.Size = new System.Drawing.Size(91, 26);
+            this.materialButton1.TabIndex = 1;
+            this.materialButton1.Text = "Close";
+            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton1.UseAccentColor = false;
+            this.materialButton1.UseVisualStyleBackColor = true;
+            this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click);
+            // 
+            // PortName
+            // 
+            this.PortName.AutoResize = false;
+            this.PortName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.PortName.Depth = 0;
+            this.PortName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PortName.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.PortName.DropDownHeight = 174;
+            this.PortName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.PortName.DropDownWidth = 121;
+            this.PortName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.PortName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.PortName.FormattingEnabled = true;
+            this.PortName.Hint = "Port Name";
+            this.PortName.IntegralHeight = false;
+            this.PortName.ItemHeight = 43;
+            this.PortName.Location = new System.Drawing.Point(3, 3);
+            this.PortName.MaxDropDownItems = 4;
+            this.PortName.MouseState = MaterialSkin.MouseState.OUT;
+            this.PortName.Name = "PortName";
+            this.PortName.Size = new System.Drawing.Size(230, 49);
+            this.PortName.StartIndex = 0;
+            this.PortName.TabIndex = 3;
+            this.PortName.SelectedIndexChanged += new System.EventHandler(this.PortName_SelectedIndexChanged);
+            this.PortName.Click += new System.EventHandler(this.PortName_Click);
+            // 
+            // serialPort1
+            // 
+            this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 2;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.Controls.Add(this.materialButton2, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.stop, 1, 0);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 223);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 1;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(248, 34);
+            this.tableLayoutPanel5.TabIndex = 4;
+            // 
+            // materialButton2
+            // 
+            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton2.Depth = 0;
+            this.materialButton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialButton2.HighEmphasis = true;
+            this.materialButton2.Icon = null;
+            this.materialButton2.Location = new System.Drawing.Point(4, 6);
+            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton2.Name = "materialButton2";
+            this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton2.Size = new System.Drawing.Size(116, 22);
+            this.materialButton2.TabIndex = 0;
+            this.materialButton2.Text = "Clear";
+            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton2.UseAccentColor = false;
+            this.materialButton2.UseVisualStyleBackColor = true;
+            this.materialButton2.Click += new System.EventHandler(this.materialButton2_Click);
+            // 
+            // stop
+            // 
+            this.stop.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.stop.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.stop.Depth = 0;
+            this.stop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stop.HighEmphasis = true;
+            this.stop.Icon = null;
+            this.stop.Location = new System.Drawing.Point(128, 6);
+            this.stop.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.stop.MouseState = MaterialSkin.MouseState.HOVER;
+            this.stop.Name = "stop";
+            this.stop.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.stop.Size = new System.Drawing.Size(116, 22);
+            this.stop.TabIndex = 1;
+            this.stop.Text = "Stop";
+            this.stop.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.stop.UseAccentColor = false;
+            this.stop.UseVisualStyleBackColor = true;
+            this.stop.Click += new System.EventHandler(this.stop_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -369,6 +432,8 @@
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -392,6 +457,9 @@
         private MaterialSkin.Controls.MaterialButton materialButton1;
         private MaterialSkin.Controls.MaterialComboBox Baudrate;
         private MaterialSkin.Controls.MaterialComboBox PortName;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private MaterialSkin.Controls.MaterialButton materialButton2;
+        private MaterialSkin.Controls.MaterialButton stop;
     }
 }
 

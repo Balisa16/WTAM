@@ -133,11 +133,26 @@ namespace Prak_6
         private void splitData(object item)
         {
             String[] data = item.ToString().Split(',');
-            suhubox.Text = data[1]; // textbox untuk data suhu
-            kelembapanbox.Text = data[2]; // textbox untuk data kelembaban
-            tekananbox.Text = data[3]; // textbox untuk data tekanan udara
-            UVindexbox.Text = data[4]; // textbox untuk data uv index 
+            if(stop.Text == "Stop")
+            {
+                suhubox.Text = data[1]; // textbox untuk data suhu
+                kelembapanbox.Text = data[2]; // textbox untuk data kelembaban
+                tekananbox.Text = data[3]; // textbox untuk data tekanan udara
+                UVindexbox.Text = data[4]; // textbox untuk data uv index 
+            }
         }
 
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+            listReceived.Items.Clear();
+        }
+
+        private void stop_Click(object sender, EventArgs e)
+        {
+            if (stop.Text == "Stop")
+                stop.Text = "Start";
+            else
+                stop.Text = "Stop";
+        }
     }
 }
