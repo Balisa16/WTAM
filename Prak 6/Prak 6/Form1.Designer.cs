@@ -258,7 +258,13 @@
             this.Baudrate.ItemHeight = 43;
             this.Baudrate.Items.AddRange(new object[] {
             "9600",
-            "115200"});
+            "14400",
+            "19200",
+            "38400",
+            "56000",
+            "57600",
+            "76800",
+            "115200 "});
             this.Baudrate.Location = new System.Drawing.Point(3, 58);
             this.Baudrate.MaxDropDownItems = 4;
             this.Baudrate.MouseState = MaterialSkin.MouseState.OUT;
@@ -376,6 +382,7 @@
             this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.materialButton2.Depth = 0;
             this.materialButton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialButton2.Enabled = false;
             this.materialButton2.HighEmphasis = true;
             this.materialButton2.Icon = null;
             this.materialButton2.Location = new System.Drawing.Point(4, 6);
@@ -397,6 +404,7 @@
             this.stop.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.stop.Depth = 0;
             this.stop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stop.Enabled = false;
             this.stop.HighEmphasis = true;
             this.stop.Icon = null;
             this.stop.Location = new System.Drawing.Point(128, 6);

@@ -69,6 +69,8 @@ namespace Prak_6
                     UVindexbox.Enabled = true;
                     tekananbox.Enabled = true;
                     listReceived.Enabled = true;
+                    materialButton2.Enabled = true;
+                    stop.Enabled = true;
                     connectbtn.Text = "Disconnect";
                 }
                 catch(Exception ex)
@@ -86,6 +88,8 @@ namespace Prak_6
                     UVindexbox.Enabled = false;
                     tekananbox.Enabled = false;
                     listReceived.Enabled = false;
+                    materialButton2.Enabled = false;
+                    stop.Enabled = false;
                     connectbtn.Text = "Connect";
                 }
                 catch(Exception ex)
