@@ -64,7 +64,7 @@ namespace Prak_6
                     serialPort1.PortName = PortName.Text;
                     serialPort1.BaudRate = int.Parse(Baudrate.Text);
                     //serialPort1.NewLine = "#setop#";
-                    //serialPort1.NewLine = "\r\n";
+                    serialPort1.NewLine = "\r\n";
                     serialPort1.Open();
                     suhubox.Enabled = true;
                     kelembapanbox.Enabled = true;
@@ -109,9 +109,8 @@ namespace Prak_6
 
         private void serialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
         {
-            //Tampilkan(serialPort1.ReadExisting());
-
-            listReceived.Items.Add(serialPort1.ReadLine());
+            Tampilkan(serialPort1.ReadExisting());
+            //listReceived.Items.Add(serialPort1.ReadLine());
         }
         private delegate void TampilkanDelegate(object item);
         private void Tampilkan(object item)
