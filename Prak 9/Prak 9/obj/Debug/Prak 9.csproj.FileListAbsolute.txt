@@ -1,0 +1,13 @@
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\bin\Debug\Prak 9.exe.config
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\bin\Debug\Prak 9.exe
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\bin\Debug\Prak 9.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\bin\Debug\MaterialSkin.dll
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\obj\Debug\Prak 9.csproj.AssemblyReference.cache
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\obj\Debug\Prak 9.csproj.SuggestedBindingRedirects.cache
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\obj\Debug\Prak_9.Form1.resources
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\obj\Debug\Prak_9.Properties.Resources.resources
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\obj\Debug\Prak 9.csproj.GenerateResource.cache
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\obj\Debug\Prak 9.csproj.CoreCompileInputs.cache
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\obj\Debug\Prak 9.csproj.CopyComplete
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\obj\Debug\Prak 9.exe
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 9\Prak 9\obj\Debug\Prak 9.pdb

@@ -1,0 +1,65 @@
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\bin\Debug\Prak 6.exe.config
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\bin\Debug\Prak 6.exe
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\bin\Debug\Prak 6.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\bin\Debug\MaterialSkin.dll
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\obj\Debug\Prak 6.csproj.AssemblyReference.cache
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\obj\Debug\Prak 6.csproj.SuggestedBindingRedirects.cache
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\obj\Debug\Prak_6.Form1.resources
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\obj\Debug\Prak_6.Properties.Resources.resources
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\obj\Debug\Prak 6.csproj.GenerateResource.cache
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\obj\Debug\Prak 6.csproj.CoreCompileInputs.cache
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\obj\Debug\Prak 6.csproj.CopyComplete
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\obj\Debug\Prak 6.exe
+E:\Semester 4\Workshop Teknik Antarmuka\Prak 6\Prak 6\obj\Debug\Prak 6.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\bin\Debug\Prak 6.exe.config
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\bin\Debug\Prak 6.exe
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\bin\Debug\Prak 6.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\bin\Debug\MaterialSkin.dll
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\obj\Debug\Prak 6.csproj.AssemblyReference.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\obj\Debug\Prak 6.csproj.SuggestedBindingRedirects.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\obj\Debug\Prak_6.Form1.resources
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\obj\Debug\Prak_6.Properties.Resources.resources
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\obj\Debug\Prak 6.csproj.GenerateResource.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\obj\Debug\Prak 6.csproj.CoreCompileInputs.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\obj\Debug\Prak 6.csproj.CopyComplete
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\obj\Debug\Prak 6.exe
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 6\Prak 6\obj\Debug\Prak 6.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\bin\Debug\Prak 6.exe.config
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\bin\Debug\Prak 6.exe
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\bin\Debug\Prak 6.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\bin\Debug\MaterialSkin.dll
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\obj\Debug\Prak 6.csproj.AssemblyReference.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\obj\Debug\Prak 6.csproj.SuggestedBindingRedirects.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\obj\Debug\Prak_6.Form1.resources
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\obj\Debug\Prak_6.Properties.Resources.resources
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\obj\Debug\Prak 6.csproj.GenerateResource.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\obj\Debug\Prak 6.csproj.CoreCompileInputs.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\obj\Debug\Prak 6.csproj.CopyComplete
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\obj\Debug\Prak 6.exe
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 7\Prak 6\obj\Debug\Prak 6.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\bin\Debug\Prak 6.exe.config
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\bin\Debug\Prak 6.exe
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\bin\Debug\Prak 6.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\bin\Debug\MaterialSkin.dll
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\obj\Debug\Prak 6.csproj.AssemblyReference.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\obj\Debug\Prak 6.csproj.SuggestedBindingRedirects.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\obj\Debug\Prak_6.Form1.resources
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\obj\Debug\Prak_6.Properties.Resources.resources
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\obj\Debug\Prak 6.csproj.GenerateResource.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\obj\Debug\Prak 6.csproj.CoreCompileInputs.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\obj\Debug\Prak 6.csproj.CopyComplete
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\obj\Debug\Prak 6.exe
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 8\Prak 6\obj\Debug\Prak 6.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\bin\Debug\Prak 6.exe.config
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\bin\Debug\Prak 6.exe
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\bin\Debug\Prak 6.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\bin\Debug\MaterialSkin.dll
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\obj\Debug\Prak 6.csproj.AssemblyReference.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\obj\Debug\Prak 6.csproj.SuggestedBindingRedirects.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\obj\Debug\Prak_6.Form1.resources
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\obj\Debug\Prak_6.Properties.Resources.resources
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\obj\Debug\Prak 6.csproj.GenerateResource.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\obj\Debug\Prak 6.csproj.CoreCompileInputs.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\obj\Debug\Prak 6.csproj.CopyComplete
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\obj\Debug\Prak 6.exe
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 9-Tugas\Prak 6\obj\Debug\Prak 6.pdb

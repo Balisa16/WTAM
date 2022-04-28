@@ -1,0 +1,246 @@
+Time  17:46:9:481
+Temperatur   : 28
+Humidity     : 84
+Air Pressure : 717
+UV-Index     : 1
+
+Time  17:46:9:559
+Temperatur   : 25
+Humidity     : 78
+Air Pressure : 333
+UV-Index     : 4
+
+Time  17:46:9:665
+Temperatur   : 24
+Humidity     : 78
+Air Pressure : 485
+UV-Index     : 0
+
+Time  17:46:9:788
+Temperatur   : 28
+Humidity     : 61
+Air Pressure : 784
+UV-Index     : 4
+
+Time  17:46:9:898
+Temperatur   : 21
+Humidity     : 75
+Air Pressure : 695
+UV-Index     : 1
+
+Time  17:46:10:21
+Temperatur   : 25
+Humidity     : 59
+Air Pressure : 994
+UV-Index     : 5
+
+Time  17:46:10:146
+Temperatur   : 29
+Humidity     : 43
+Air Pressure : 492
+UV-Index     : 3
+
+Time  17:46:10:252
+Temperatur   : 29
+Humidity     : 42
+Air Pressure : 644
+UV-Index     : 5
+
+Time  17:46:10:374
+Temperatur   : 28
+Humidity     : 41
+Air Pressure : 796
+UV-Index     : 0
+
+Time  17:46:10:481
+Temperatur   : 21
+Humidity     : 55
+Air Pressure : 707
+UV-Index     : 3
+
+Time  17:46:10:577
+Temperatur   : 20
+Humidity     : 54
+Air Pressure : 859
+UV-Index     : 5
+
+Time  17:46:10:713
+Temperatur   : 24
+Humidity     : 88
+Air Pressure : 357
+UV-Index     : 3
+
+Time  17:46:10:817
+Temperatur   : 23
+Humidity     : 87
+Air Pressure : 509
+UV-Index     : 4
+
+Time  17:46:10:917
+Temperatur   : 29
+Humidity     : 51
+Air Pressure : 420
+UV-Index     : 1
+
+Time  17:46:11:27
+Temperatur   : 29
+Humidity     : 50
+Air Pressure : 572
+UV-Index     : 3
+
+Time  17:46:11:137
+Temperatur   : 22
+Humidity     : 64
+Air Pressure : 483
+UV-Index     : 0
+
+Time  17:46:11:257
+Temperatur   : 21
+Humidity     : 63
+Air Pressure : 635
+UV-Index     : 1
+
+Time  17:46:11:368
+Temperatur   : 20
+Humidity     : 62
+Air Pressure : 786
+UV-Index     : 3
+
+Time  17:46:11:479
+Temperatur   : 26
+Humidity     : 76
+Air Pressure : 697
+UV-Index     : 0
+
+Time  17:46:11:581
+Temperatur   : 26
+Humidity     : 75
+Air Pressure : 849
+UV-Index     : 1
+
+Time  17:46:11:712
+Temperatur   : 30
+Humidity     : 59
+Air Pressure : 348
+UV-Index     : 0
+
+Time  17:46:11:824
+Temperatur   : 29
+Humidity     : 58
+Air Pressure : 500
+UV-Index     : 1
+
+Time  17:46:11:930
+Temperatur   : 22
+Humidity     : 72
+Air Pressure : 411
+UV-Index     : 4
+
+Time  17:46:12:29
+Temperatur   : 21
+Humidity     : 71
+Air Pressure : 562
+UV-Index     : 0
+
+Time  17:46:12:146
+Temperatur   : 27
+Humidity     : 85
+Air Pressure : 473
+UV-Index     : 2
+
+Time  17:46:12:257
+Temperatur   : 27
+Humidity     : 84
+Air Pressure : 625
+UV-Index     : 4
+
+Time  17:46:12:366
+Temperatur   : 26
+Humidity     : 83
+Air Pressure : 777
+UV-Index     : 0
+
+Time  17:46:12:479
+Temperatur   : 32
+Humidity     : 47
+Air Pressure : 688
+UV-Index     : 3
+
+Time  17:46:12:586
+Temperatur   : 31
+Humidity     : 46
+Air Pressure : 839
+UV-Index     : 4
+
+Time  17:46:12:697
+Temperatur   : 31
+Humidity     : 45
+Air Pressure : 991
+UV-Index     : 0
+
+Time  17:46:12:808
+Temperatur   : 24
+Humidity     : 59
+Air Pressure : 902
+UV-Index     : 3
+
+Time  17:46:12:910
+Temperatur   : 23
+Humidity     : 58
+Air Pressure : 254
+UV-Index     : 4
+
+Time  17:46:13:18
+Temperatur   : 29
+Humidity     : 72
+Air Pressure : 965
+UV-Index     : 1
+
+Time  17:46:13:120
+Temperatur   : 28
+Humidity     : 71
+Air Pressure : 317
+UV-Index     : 3
+
+Time  17:46:13:246
+Temperatur   : 28
+Humidity     : 70
+Air Pressure : 468
+UV-Index     : 4
+
+Time  17:46:13:357
+Temperatur   : 21
+Humidity     : 84
+Air Pressure : 379
+UV-Index     : 1
+
+Time  17:46:13:461
+Temperatur   : 20
+Humidity     : 83
+Air Pressure : 531
+UV-Index     : 3
+
+Time  17:46:13:572
+Temperatur   : 32
+Humidity     : 82
+Air Pressure : 683
+UV-Index     : 4
+
+Time  17:46:13:688
+Temperatur   : 25
+Humidity     : 46
+Air Pressure : 594
+UV-Index     : 1
+
+Time  17:46:13:779
+Temperatur   : 24
+Humidity     : 45
+Air Pressure : 746
+UV-Index     : 3
+
+Time  17:46:13:895
+Temperatur   : 31
+Humidity     : 59
+Air Pressure : 656
+UV-Index     : 0
+
