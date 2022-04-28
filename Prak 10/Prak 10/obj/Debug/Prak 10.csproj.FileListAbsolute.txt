@@ -1,0 +1,13 @@
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\bin\Debug\Prak 10.exe.config
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\bin\Debug\Prak 10.exe
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\bin\Debug\Prak 10.pdb
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\bin\Debug\MaterialSkin.dll
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\obj\Debug\Prak 10.csproj.AssemblyReference.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\obj\Debug\Prak 10.csproj.SuggestedBindingRedirects.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\obj\Debug\Prak_10.Form1.resources
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\obj\Debug\Prak_10.Properties.Resources.resources
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\obj\Debug\Prak 10.csproj.GenerateResource.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\obj\Debug\Prak 10.csproj.CoreCompileInputs.cache
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\obj\Debug\Prak 10.csproj.CopyComplete
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\obj\Debug\Prak 10.exe
+E:\Semester 4\Workshop Teknik Antarmuka\WTAM\WTAM\Prak 10\Prak 10\obj\Debug\Prak 10.pdb
