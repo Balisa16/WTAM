@@ -137,6 +137,8 @@ namespace Prak_10
             {
                 string baris;
                 int counter = 0;
+                int j_huruf = 0;
+                string kalimat_baris;
                 listBox1.Items.Clear();
                 TextReader txt = new StreamReader(SelectedFilelbl.Text);
                 while ((baris = txt.ReadLine()) != null)
@@ -144,9 +146,19 @@ namespace Prak_10
                     listBox1.Items.Add(baris);
                     counter++;
                     serialPort1.WriteLine(baris);
+                    kalimat_baris = baris;
+                    foreach(char chr in kalimat_baris)
+                    {
+                        j_huruf++;
+                        if(chr == ' ')
+                            j_huruf--;
+                    }
                 }
                 txt.Close();
-                MessageBox.Show("Done sending " + Convert.ToString(counter) + " character", "Sucessfully");
+                string J_Karakter = Convert.ToString(File.ReadAllBytes(NamaFile));
+                MessageBox.Show("Done sending " + Convert.ToString(counter) + " rows"
+                    + " and " + j_huruf + " character"
+                    , "Sucessfully");
             }
             catch(Exception ex)
             {

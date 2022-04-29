@@ -151,10 +151,10 @@ namespace Prak_6
                     {
                         if (fileCostumeName.Text == "")
                         {
-                            txt = new StreamWriter(filePath.Text + "data.txt", true);
+                            txt = new StreamWriter(filePath.Text + "/data.txt", true);
                         }
                         else
-                            txt = new StreamWriter(filePath.Text + fileCostumeName.Text + ".txt", true);
+                            txt = new StreamWriter(filePath.Text + "/" + fileCostumeName.Text + ".txt", true);
                         txt.WriteLine("Time  " + DateTime.Now.Hour + ":" + DateTime.Now.Minute + ":" + DateTime.Now.Second + ":" + DateTime.Now.Millisecond);
                         if(broadcast == true)
                             txt.WriteLine("Mode Broadcast");
@@ -421,7 +421,22 @@ namespace Prak_6
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if(checkBox1.Checked)
+            
+        }
+
+        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void fileCostumeName_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
             {
                 label4.Enabled = true;
                 fileCostumeName.Enabled = true;
@@ -437,7 +452,7 @@ namespace Prak_6
             }
         }
 
-        private void SlctFilePath_Click(object sender, EventArgs e)
+        private void SlctFilePath_Click_1(object sender, EventArgs e)
         {
             try
             {

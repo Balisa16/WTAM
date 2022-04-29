@@ -62,9 +62,10 @@ namespace Prak_9
 
         private void savingbtn_Click(object sender, EventArgs e)
         {
-            TextWriter txt = new StreamWriter(SelectedFilePath.Text + "data.txt", true);
+            TextWriter txt = new StreamWriter(SelectedFilePath.Text + "/data.txt", true);
             txt.WriteLine(textBox1.Text);
             txt.Close();
+            textBox1.Clear();
         }
 
         private void clrTxt_Click(object sender, EventArgs e)

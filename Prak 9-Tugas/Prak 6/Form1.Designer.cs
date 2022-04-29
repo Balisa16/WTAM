@@ -54,6 +54,15 @@
             this.Sending_msg = new System.Windows.Forms.ListBox();
             this.groupSerialSetting = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.RecordGroup = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.fileCostumeName = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.SlctFilePath = new System.Windows.Forms.Button();
+            this.filePath = new System.Windows.Forms.Label();
             this.Baudrate = new MaterialSkin.Controls.MaterialComboBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.connectbtn = new MaterialSkin.Controls.MaterialButton();
@@ -64,15 +73,6 @@
             this.delete_msg = new MaterialSkin.Controls.MaterialButton();
             this.send_msg = new MaterialSkin.Controls.MaterialButton();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
-            this.RecordGroup = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.fileCostumeName = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
-            this.SlctFilePath = new System.Windows.Forms.Button();
-            this.filePath = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupSplitter.SuspendLayout();
@@ -83,12 +83,12 @@
             this.tableLayoutPanel7.SuspendLayout();
             this.groupSerialSetting.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel6.SuspendLayout();
             this.RecordGroup.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
             this.tableLayoutPanel11.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -106,16 +106,16 @@
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(956, 416);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1034, 419);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // groupSplitter
             // 
             this.groupSplitter.Controls.Add(this.tableLayoutPanel2);
             this.groupSplitter.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupSplitter.Location = new System.Drawing.Point(693, 3);
+            this.groupSplitter.Location = new System.Drawing.Point(771, 3);
             this.groupSplitter.Name = "groupSplitter";
-            this.groupSplitter.Size = new System.Drawing.Size(260, 410);
+            this.groupSplitter.Size = new System.Drawing.Size(260, 413);
             this.groupSplitter.TabIndex = 0;
             this.groupSplitter.TabStop = false;
             this.groupSplitter.Text = "Splited Data";
@@ -143,7 +143,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(254, 391);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(254, 394);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // suhubox
@@ -423,7 +423,7 @@
             this.groupReceived.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupReceived.Location = new System.Drawing.Point(251, 3);
             this.groupReceived.Name = "groupReceived";
-            this.groupReceived.Size = new System.Drawing.Size(436, 410);
+            this.groupReceived.Size = new System.Drawing.Size(514, 413);
             this.groupReceived.TabIndex = 1;
             this.groupReceived.TabStop = false;
             this.groupReceived.Text = "Received Data";
@@ -444,7 +444,7 @@
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(430, 391);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(508, 394);
             this.tableLayoutPanel7.TabIndex = 0;
             // 
             // listReceived
@@ -452,9 +452,9 @@
             this.listReceived.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listReceived.Enabled = false;
             this.listReceived.FormattingEnabled = true;
-            this.listReceived.Location = new System.Drawing.Point(3, 219);
+            this.listReceived.Location = new System.Drawing.Point(3, 221);
             this.listReceived.Name = "listReceived";
-            this.listReceived.Size = new System.Drawing.Size(424, 169);
+            this.listReceived.Size = new System.Drawing.Size(502, 170);
             this.listReceived.TabIndex = 0;
             // 
             // label1
@@ -463,7 +463,7 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(424, 18);
+            this.label1.Size = new System.Drawing.Size(502, 18);
             this.label1.TabIndex = 1;
             this.label1.Text = "Send Message";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -472,9 +472,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(3, 192);
+            this.label2.Location = new System.Drawing.Point(3, 194);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(424, 24);
+            this.label2.Size = new System.Drawing.Size(502, 24);
             this.label2.TabIndex = 2;
             this.label2.Text = "Received Message";
             // 
@@ -484,7 +484,7 @@
             this.Sending_msg.FormattingEnabled = true;
             this.Sending_msg.Location = new System.Drawing.Point(3, 21);
             this.Sending_msg.Name = "Sending_msg";
-            this.Sending_msg.Size = new System.Drawing.Size(424, 168);
+            this.Sending_msg.Size = new System.Drawing.Size(502, 170);
             this.Sending_msg.TabIndex = 3;
             this.Sending_msg.SelectedIndexChanged += new System.EventHandler(this.Sending_msg_SelectedIndexChanged);
             // 
@@ -494,7 +494,7 @@
             this.groupSerialSetting.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupSerialSetting.Location = new System.Drawing.Point(3, 3);
             this.groupSerialSetting.Name = "groupSerialSetting";
-            this.groupSerialSetting.Size = new System.Drawing.Size(242, 410);
+            this.groupSerialSetting.Size = new System.Drawing.Size(242, 413);
             this.groupSerialSetting.TabIndex = 2;
             this.groupSerialSetting.TabStop = false;
             this.groupSerialSetting.Text = "Serial Port Setting";
@@ -503,26 +503,142 @@
             // 
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Controls.Add(this.RecordGroup, 0, 6);
             this.tableLayoutPanel3.Controls.Add(this.Baudrate, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.PortName, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.send_msgbox, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel6, 0, 4);
-            this.tableLayoutPanel3.Controls.Add(this.RecordGroup, 0, 5);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 16);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 6;
+            this.tableLayoutPanel3.RowCount = 7;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(236, 391);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 133F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(236, 394);
             this.tableLayoutPanel3.TabIndex = 0;
+            this.tableLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint);
+            // 
+            // RecordGroup
+            // 
+            this.RecordGroup.Controls.Add(this.tableLayoutPanel9);
+            this.RecordGroup.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.RecordGroup.Location = new System.Drawing.Point(3, 264);
+            this.RecordGroup.Name = "RecordGroup";
+            this.RecordGroup.Size = new System.Drawing.Size(230, 127);
+            this.RecordGroup.TabIndex = 8;
+            this.RecordGroup.TabStop = false;
+            this.RecordGroup.Text = "Record Data";
+            // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.ColumnCount = 1;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel9.Controls.Add(this.checkBox1, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.tableLayoutPanel10, 0, 1);
+            this.tableLayoutPanel9.Controls.Add(this.tableLayoutPanel11, 0, 2);
+            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 3;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(224, 108);
+            this.tableLayoutPanel9.TabIndex = 0;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkBox1.Enabled = false;
+            this.checkBox1.Location = new System.Drawing.Point(3, 3);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(218, 22);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "Record";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.ColumnCount = 2;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.5F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.5F));
+            this.tableLayoutPanel10.Controls.Add(this.label4, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.fileCostumeName, 1, 0);
+            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 31);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 1;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(218, 34);
+            this.tableLayoutPanel10.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Enabled = false;
+            this.label4.Location = new System.Drawing.Point(3, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(77, 34);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "File Name";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // fileCostumeName
+            // 
+            this.fileCostumeName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fileCostumeName.Enabled = false;
+            this.fileCostumeName.Location = new System.Drawing.Point(86, 3);
+            this.fileCostumeName.Name = "fileCostumeName";
+            this.fileCostumeName.Size = new System.Drawing.Size(129, 20);
+            this.fileCostumeName.TabIndex = 1;
+            this.fileCostumeName.TextChanged += new System.EventHandler(this.fileCostumeName_TextChanged_1);
+            // 
+            // tableLayoutPanel11
+            // 
+            this.tableLayoutPanel11.ColumnCount = 2;
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 82F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel11.Controls.Add(this.SlctFilePath, 0, 0);
+            this.tableLayoutPanel11.Controls.Add(this.filePath, 1, 0);
+            this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 71);
+            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+            this.tableLayoutPanel11.RowCount = 1;
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(218, 34);
+            this.tableLayoutPanel11.TabIndex = 2;
+            // 
+            // SlctFilePath
+            // 
+            this.SlctFilePath.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SlctFilePath.Enabled = false;
+            this.SlctFilePath.Location = new System.Drawing.Point(3, 3);
+            this.SlctFilePath.Name = "SlctFilePath";
+            this.SlctFilePath.Size = new System.Drawing.Size(76, 28);
+            this.SlctFilePath.TabIndex = 0;
+            this.SlctFilePath.Text = "Folder";
+            this.SlctFilePath.UseVisualStyleBackColor = true;
+            this.SlctFilePath.Click += new System.EventHandler(this.SlctFilePath_Click_1);
+            // 
+            // filePath
+            // 
+            this.filePath.AutoSize = true;
+            this.filePath.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.filePath.Enabled = false;
+            this.filePath.Location = new System.Drawing.Point(85, 0);
+            this.filePath.Name = "filePath";
+            this.filePath.Size = new System.Drawing.Size(130, 34);
+            this.filePath.TabIndex = 1;
+            this.filePath.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Baudrate
             // 
@@ -725,128 +841,11 @@
             // 
             this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
             // 
-            // RecordGroup
-            // 
-            this.RecordGroup.Controls.Add(this.tableLayoutPanel9);
-            this.RecordGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.RecordGroup.Location = new System.Drawing.Point(3, 256);
-            this.RecordGroup.Name = "RecordGroup";
-            this.RecordGroup.Size = new System.Drawing.Size(230, 132);
-            this.RecordGroup.TabIndex = 7;
-            this.RecordGroup.TabStop = false;
-            this.RecordGroup.Text = "Record Data";
-            // 
-            // tableLayoutPanel9
-            // 
-            this.tableLayoutPanel9.ColumnCount = 1;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Controls.Add(this.checkBox1, 0, 0);
-            this.tableLayoutPanel9.Controls.Add(this.tableLayoutPanel10, 0, 1);
-            this.tableLayoutPanel9.Controls.Add(this.tableLayoutPanel11, 0, 2);
-            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 16);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 3;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(224, 113);
-            this.tableLayoutPanel9.TabIndex = 0;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox1.Enabled = false;
-            this.checkBox1.Location = new System.Drawing.Point(3, 3);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(218, 22);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Record";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
-            // tableLayoutPanel10
-            // 
-            this.tableLayoutPanel10.ColumnCount = 2;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.5F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.5F));
-            this.tableLayoutPanel10.Controls.Add(this.label4, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.fileCostumeName, 1, 0);
-            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 31);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 1;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(218, 36);
-            this.tableLayoutPanel10.TabIndex = 1;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Enabled = false;
-            this.label4.Location = new System.Drawing.Point(3, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 36);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "File Name";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // fileCostumeName
-            // 
-            this.fileCostumeName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fileCostumeName.Enabled = false;
-            this.fileCostumeName.Location = new System.Drawing.Point(86, 3);
-            this.fileCostumeName.Name = "fileCostumeName";
-            this.fileCostumeName.Size = new System.Drawing.Size(129, 20);
-            this.fileCostumeName.TabIndex = 1;
-            this.fileCostumeName.TextChanged += new System.EventHandler(this.fileCostumeName_TextChanged);
-            // 
-            // tableLayoutPanel11
-            // 
-            this.tableLayoutPanel11.ColumnCount = 2;
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 82F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.Controls.Add(this.SlctFilePath, 0, 0);
-            this.tableLayoutPanel11.Controls.Add(this.filePath, 1, 0);
-            this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 73);
-            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
-            this.tableLayoutPanel11.RowCount = 1;
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(218, 37);
-            this.tableLayoutPanel11.TabIndex = 2;
-            // 
-            // SlctFilePath
-            // 
-            this.SlctFilePath.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SlctFilePath.Enabled = false;
-            this.SlctFilePath.Location = new System.Drawing.Point(3, 3);
-            this.SlctFilePath.Name = "SlctFilePath";
-            this.SlctFilePath.Size = new System.Drawing.Size(76, 31);
-            this.SlctFilePath.TabIndex = 0;
-            this.SlctFilePath.Text = "Folder";
-            this.SlctFilePath.UseVisualStyleBackColor = true;
-            this.SlctFilePath.Click += new System.EventHandler(this.SlctFilePath_Click);
-            // 
-            // filePath
-            // 
-            this.filePath.AutoSize = true;
-            this.filePath.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.filePath.Enabled = false;
-            this.filePath.Location = new System.Drawing.Point(85, 0);
-            this.filePath.Name = "filePath";
-            this.filePath.Size = new System.Drawing.Size(130, 37);
-            this.filePath.TabIndex = 1;
-            this.filePath.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.filePath.Click += new System.EventHandler(this.filePath_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 443);
+            this.ClientSize = new System.Drawing.Size(1040, 446);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormStyle = MaterialSkin.Controls.MaterialForm.FormStyles.ActionBar_None;
             this.Name = "Form1";
@@ -867,10 +866,6 @@
             this.tableLayoutPanel7.PerformLayout();
             this.groupSerialSetting.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel4.PerformLayout();
-            this.tableLayoutPanel6.ResumeLayout(false);
-            this.tableLayoutPanel6.PerformLayout();
             this.RecordGroup.ResumeLayout(false);
             this.tableLayoutPanel9.ResumeLayout(false);
             this.tableLayoutPanel9.PerformLayout();
@@ -878,6 +873,10 @@
             this.tableLayoutPanel10.PerformLayout();
             this.tableLayoutPanel11.ResumeLayout(false);
             this.tableLayoutPanel11.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -919,6 +918,7 @@
         private MaterialSkin.Controls.MaterialButton Pressure_Request;
         private MaterialSkin.Controls.MaterialButton UV_Request;
         private MaterialSkin.Controls.MaterialButton All_Request;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.GroupBox RecordGroup;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
         private System.Windows.Forms.CheckBox checkBox1;
@@ -928,7 +928,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
         private System.Windows.Forms.Button SlctFilePath;
         private System.Windows.Forms.Label filePath;
-        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }
 

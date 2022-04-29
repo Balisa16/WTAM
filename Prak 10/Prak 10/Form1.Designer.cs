@@ -34,30 +34,30 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.SerialPortSettingGroup = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.sendBtn = new System.Windows.Forms.Button();
+            this.selectFile = new System.Windows.Forms.Button();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.baudratelist = new MaterialSkin.Controls.MaterialComboBox();
+            this.baudrate_lbl = new MaterialSkin.Controls.MaterialLabel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.comPortlbl = new MaterialSkin.Controls.MaterialLabel();
             this.COMPortlist = new MaterialSkin.Controls.MaterialComboBox();
-            this.baudrate_lbl = new MaterialSkin.Controls.MaterialLabel();
-            this.baudratelist = new MaterialSkin.Controls.MaterialComboBox();
-            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.Connectbtn = new MaterialSkin.Controls.MaterialButton();
             this.Closebtn = new MaterialSkin.Controls.MaterialButton();
-            this.selectFile = new System.Windows.Forms.Button();
-            this.sendBtn = new System.Windows.Forms.Button();
+            this.Connectbtn = new MaterialSkin.Controls.MaterialButton();
             this.SelectedFilelbl = new System.Windows.Forms.Label();
             this.fileInpo = new System.Windows.Forms.ListBox();
+            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tableLayoutPanel1.SuspendLayout();
             this.IsiFileGroup.SuspendLayout();
             this.SerialPortSettingGroup.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -130,20 +130,44 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(327, 405);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // tableLayoutPanel3
+            // tableLayoutPanel6
             // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 91F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Controls.Add(this.comPortlbl, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.COMPortlist, 1, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(321, 49);
-            this.tableLayoutPanel3.TabIndex = 0;
+            this.tableLayoutPanel6.ColumnCount = 2;
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.63348F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.36652F));
+            this.tableLayoutPanel6.Controls.Add(this.sendBtn, 1, 0);
+            this.tableLayoutPanel6.Controls.Add(this.selectFile, 0, 0);
+            this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 153);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 1;
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(321, 34);
+            this.tableLayoutPanel6.TabIndex = 3;
+            // 
+            // sendBtn
+            // 
+            this.sendBtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sendBtn.Enabled = false;
+            this.sendBtn.Location = new System.Drawing.Point(197, 3);
+            this.sendBtn.Name = "sendBtn";
+            this.sendBtn.Size = new System.Drawing.Size(121, 28);
+            this.sendBtn.TabIndex = 1;
+            this.sendBtn.Text = "Send";
+            this.sendBtn.UseVisualStyleBackColor = true;
+            this.sendBtn.Click += new System.EventHandler(this.sendBtn_Click);
+            // 
+            // selectFile
+            // 
+            this.selectFile.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.selectFile.Enabled = false;
+            this.selectFile.Location = new System.Drawing.Point(3, 3);
+            this.selectFile.Name = "selectFile";
+            this.selectFile.Size = new System.Drawing.Size(188, 28);
+            this.selectFile.TabIndex = 0;
+            this.selectFile.Text = "Select File";
+            this.selectFile.UseVisualStyleBackColor = true;
+            this.selectFile.Click += new System.EventHandler(this.selectFile_Click);
             // 
             // tableLayoutPanel4
             // 
@@ -159,58 +183,6 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(321, 49);
             this.tableLayoutPanel4.TabIndex = 1;
-            // 
-            // comPortlbl
-            // 
-            this.comPortlbl.AutoSize = true;
-            this.comPortlbl.Depth = 0;
-            this.comPortlbl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.comPortlbl.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.comPortlbl.Location = new System.Drawing.Point(3, 0);
-            this.comPortlbl.MouseState = MaterialSkin.MouseState.HOVER;
-            this.comPortlbl.Name = "comPortlbl";
-            this.comPortlbl.Size = new System.Drawing.Size(85, 49);
-            this.comPortlbl.TabIndex = 0;
-            this.comPortlbl.Text = "COM Port";
-            this.comPortlbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // COMPortlist
-            // 
-            this.COMPortlist.AutoResize = false;
-            this.COMPortlist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.COMPortlist.Depth = 0;
-            this.COMPortlist.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.COMPortlist.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.COMPortlist.DropDownHeight = 174;
-            this.COMPortlist.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.COMPortlist.DropDownWidth = 121;
-            this.COMPortlist.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.COMPortlist.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.COMPortlist.FormattingEnabled = true;
-            this.COMPortlist.IntegralHeight = false;
-            this.COMPortlist.ItemHeight = 43;
-            this.COMPortlist.Location = new System.Drawing.Point(94, 3);
-            this.COMPortlist.MaxDropDownItems = 4;
-            this.COMPortlist.MouseState = MaterialSkin.MouseState.OUT;
-            this.COMPortlist.Name = "COMPortlist";
-            this.COMPortlist.Size = new System.Drawing.Size(224, 49);
-            this.COMPortlist.StartIndex = 0;
-            this.COMPortlist.TabIndex = 1;
-            this.COMPortlist.Click += new System.EventHandler(this.COMPort_Click);
-            // 
-            // baudrate_lbl
-            // 
-            this.baudrate_lbl.AutoSize = true;
-            this.baudrate_lbl.Depth = 0;
-            this.baudrate_lbl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.baudrate_lbl.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.baudrate_lbl.Location = new System.Drawing.Point(3, 0);
-            this.baudrate_lbl.MouseState = MaterialSkin.MouseState.HOVER;
-            this.baudrate_lbl.Name = "baudrate_lbl";
-            this.baudrate_lbl.Size = new System.Drawing.Size(85, 49);
-            this.baudrate_lbl.TabIndex = 1;
-            this.baudrate_lbl.Text = "Baud Rate";
-            this.baudrate_lbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // baudratelist
             // 
@@ -244,9 +216,72 @@
             this.baudratelist.StartIndex = 0;
             this.baudratelist.TabIndex = 2;
             // 
-            // openFileDialog1
+            // baudrate_lbl
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            this.baudrate_lbl.AutoSize = true;
+            this.baudrate_lbl.Depth = 0;
+            this.baudrate_lbl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.baudrate_lbl.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.baudrate_lbl.Location = new System.Drawing.Point(3, 0);
+            this.baudrate_lbl.MouseState = MaterialSkin.MouseState.HOVER;
+            this.baudrate_lbl.Name = "baudrate_lbl";
+            this.baudrate_lbl.Size = new System.Drawing.Size(85, 49);
+            this.baudrate_lbl.TabIndex = 1;
+            this.baudrate_lbl.Text = "Baud Rate";
+            this.baudrate_lbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 91F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Controls.Add(this.comPortlbl, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.COMPortlist, 1, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(321, 49);
+            this.tableLayoutPanel3.TabIndex = 0;
+            // 
+            // comPortlbl
+            // 
+            this.comPortlbl.AutoSize = true;
+            this.comPortlbl.Depth = 0;
+            this.comPortlbl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comPortlbl.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.comPortlbl.Location = new System.Drawing.Point(3, 0);
+            this.comPortlbl.MouseState = MaterialSkin.MouseState.HOVER;
+            this.comPortlbl.Name = "comPortlbl";
+            this.comPortlbl.Size = new System.Drawing.Size(85, 49);
+            this.comPortlbl.TabIndex = 0;
+            this.comPortlbl.Text = "COM Port";
+            this.comPortlbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // COMPortlist
+            // 
+            this.COMPortlist.AutoResize = false;
+            this.COMPortlist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.COMPortlist.Depth = 0;
+            this.COMPortlist.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.COMPortlist.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.COMPortlist.DropDownHeight = 174;
+            this.COMPortlist.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.COMPortlist.DropDownWidth = 121;
+            this.COMPortlist.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.COMPortlist.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.COMPortlist.FormattingEnabled = true;
+            this.COMPortlist.IntegralHeight = false;
+            this.COMPortlist.ItemHeight = 43;
+            this.COMPortlist.Location = new System.Drawing.Point(94, 3);
+            this.COMPortlist.MaxDropDownItems = 4;
+            this.COMPortlist.MouseState = MaterialSkin.MouseState.OUT;
+            this.COMPortlist.Name = "COMPortlist";
+            this.COMPortlist.Size = new System.Drawing.Size(224, 49);
+            this.COMPortlist.StartIndex = 0;
+            this.COMPortlist.TabIndex = 1;
+            this.COMPortlist.Click += new System.EventHandler(this.COMPort_Click);
             // 
             // tableLayoutPanel5
             // 
@@ -262,42 +297,6 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.Size = new System.Drawing.Size(321, 34);
             this.tableLayoutPanel5.TabIndex = 2;
-            // 
-            // tableLayoutPanel6
-            // 
-            this.tableLayoutPanel6.ColumnCount = 2;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.63348F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.36652F));
-            this.tableLayoutPanel6.Controls.Add(this.sendBtn, 1, 0);
-            this.tableLayoutPanel6.Controls.Add(this.selectFile, 0, 0);
-            this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 153);
-            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-            this.tableLayoutPanel6.RowCount = 1;
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(321, 34);
-            this.tableLayoutPanel6.TabIndex = 3;
-            // 
-            // Connectbtn
-            // 
-            this.Connectbtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.Connectbtn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.Connectbtn.Depth = 0;
-            this.Connectbtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Connectbtn.HighEmphasis = true;
-            this.Connectbtn.Icon = null;
-            this.Connectbtn.Location = new System.Drawing.Point(4, 6);
-            this.Connectbtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.Connectbtn.MouseState = MaterialSkin.MouseState.HOVER;
-            this.Connectbtn.Name = "Connectbtn";
-            this.Connectbtn.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.Connectbtn.Size = new System.Drawing.Size(152, 22);
-            this.Connectbtn.TabIndex = 0;
-            this.Connectbtn.Text = "Connect";
-            this.Connectbtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.Connectbtn.UseAccentColor = false;
-            this.Connectbtn.UseVisualStyleBackColor = true;
-            this.Connectbtn.Click += new System.EventHandler(this.Connectbtn_Click);
             // 
             // Closebtn
             // 
@@ -320,29 +319,26 @@
             this.Closebtn.UseVisualStyleBackColor = true;
             this.Closebtn.Click += new System.EventHandler(this.Closebtn_Click);
             // 
-            // selectFile
+            // Connectbtn
             // 
-            this.selectFile.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.selectFile.Enabled = false;
-            this.selectFile.Location = new System.Drawing.Point(3, 3);
-            this.selectFile.Name = "selectFile";
-            this.selectFile.Size = new System.Drawing.Size(188, 28);
-            this.selectFile.TabIndex = 0;
-            this.selectFile.Text = "Select File";
-            this.selectFile.UseVisualStyleBackColor = true;
-            this.selectFile.Click += new System.EventHandler(this.selectFile_Click);
-            // 
-            // sendBtn
-            // 
-            this.sendBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sendBtn.Enabled = false;
-            this.sendBtn.Location = new System.Drawing.Point(197, 3);
-            this.sendBtn.Name = "sendBtn";
-            this.sendBtn.Size = new System.Drawing.Size(121, 28);
-            this.sendBtn.TabIndex = 1;
-            this.sendBtn.Text = "Send";
-            this.sendBtn.UseVisualStyleBackColor = true;
-            this.sendBtn.Click += new System.EventHandler(this.sendBtn_Click);
+            this.Connectbtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Connectbtn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.Connectbtn.Depth = 0;
+            this.Connectbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Connectbtn.HighEmphasis = true;
+            this.Connectbtn.Icon = null;
+            this.Connectbtn.Location = new System.Drawing.Point(4, 6);
+            this.Connectbtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Connectbtn.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Connectbtn.Name = "Connectbtn";
+            this.Connectbtn.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.Connectbtn.Size = new System.Drawing.Size(152, 22);
+            this.Connectbtn.TabIndex = 0;
+            this.Connectbtn.Text = "Connect";
+            this.Connectbtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.Connectbtn.UseAccentColor = false;
+            this.Connectbtn.UseVisualStyleBackColor = true;
+            this.Connectbtn.Click += new System.EventHandler(this.Connectbtn_Click);
             // 
             // SelectedFilelbl
             // 
@@ -365,6 +361,10 @@
             this.fileInpo.Size = new System.Drawing.Size(321, 186);
             this.fileInpo.TabIndex = 5;
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -381,13 +381,13 @@
             this.SerialPortSettingGroup.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
+            this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
-            this.tableLayoutPanel6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
